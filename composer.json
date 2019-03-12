@@ -1,5 +1,5 @@
 {
-    "name": "qcth/thinkphp_alipay",
+    "name": "qcth/alipay",
     "description": "this is alipay",
     "authors": [
         {
@@ -9,12 +9,8 @@
     ],
     "require": {},
     "autoload": {
-        "files": [
-            "index.php"
-        ],
         "psr-4":{
-            "qcth\\alipay\\plug\\":"plug/",
-            "qcth\\alipay\\plug_trait\\":"plug_trait/"
+            "qcth\\alipay\\":"src/"
         }
     }
 }
