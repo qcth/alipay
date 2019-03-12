@@ -1,0 +1,20 @@
+{
+    "name": "qcth/thinkphp_alipay",
+    "description": "this is alipay",
+    "authors": [
+        {
+            "name": "qcth",
+            "email": "qcth@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "index.php"
+        ],
+        "psr-4":{
+            "qcth\\alipay\\plug\\":"plug/",
+            "qcth\\alipay\\plug_trait\\":"plug_trait/"
+        }
+    }
+}
